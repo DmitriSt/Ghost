@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Lato-Medium';
+}
+
+div {
+	box-sizing: border-box;
+	cursor: default;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 5px
+}
+
+@media screen and (max-width: 1210px) {
+	.wrapper {
+		width: 900px;
+	}
+}
+
+@media screen and (max-width: 910px) {
+	.wrapper {
+		width: 768px;
+	}
+}
+
+@media screen and (max-width: 775px) {
+	.wrapper {
+		width: 320px;
+	}
+}

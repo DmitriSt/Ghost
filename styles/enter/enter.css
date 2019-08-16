@@ -1,0 +1,32 @@
+.enter {
+  background: linear-gradient(-75deg, #21424a 0%, #21424a 50%, #2fac6c 50%, #2fac6c 100%);
+}
+
+.enter__wrapper {
+	display: flex;
+	justify-content: space-between;
+	min-height: 120px;
+}
+
+.enter__login, .enter__registr {
+	width: 50%;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 20px;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.enter__login:hover, .enter__registr:hover {
+	color: rgba(255,255,255, .5);
+	transition: .2s;
+}
+
+@media screen and (max-width: 775px) {
+  .enter__login, .enter__registr {
+    font-size: 17px;
+  }
+}
